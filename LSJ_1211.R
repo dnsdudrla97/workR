@@ -3,7 +3,7 @@
 # 작성일: 2019-12-11
 # 제출일: 2019-12-11
 #
-setwd('D:/workR3')
+setwd('D:/workR')
 
 # 문1)
 # 20대 국회 개원 여·야 3당 대표 국회연설문에 대해 
@@ -17,6 +17,7 @@ library(RColorBrewer)
 
 library(dplyr)
 library(ggplot2)
+
 
 text1 <- readLines('ex_10-1.txt',encoding = 'UTF-8')
 text1
